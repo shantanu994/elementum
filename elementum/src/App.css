@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --black: #0a0a0a;
+  --white: #ffffff;
+  --mint: #d6ede4;
+  --pink-highlight: #f3b8d0;
+  --green-highlight: #c8ecd6;
+  --coral: #e8533a;
+  --purple: #7c4dcc;
+  --text-muted: #555;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--black);
+  background: var(--white);
+  overflow-x: hidden;
+}
+
+.app { width: 100%; }
+
+img { display: block; max-width: 100%; }
+
+a { text-decoration: none; color: inherit; }
